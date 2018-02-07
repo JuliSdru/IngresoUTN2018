@@ -2,6 +2,12 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'MOSTRAR'*/
 function Mostrar()
 {
+    //se crea una variable 
+    var nombre;
+    //se guarda el nombre ingesado en html
+    nombre = document.getElementById("elNombre").value;
+    //te devuelve el nombre ingresado 
+    alert (nombre);
 	
 }
 
