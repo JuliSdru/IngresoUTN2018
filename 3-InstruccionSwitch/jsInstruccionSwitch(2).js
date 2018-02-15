@@ -6,18 +6,31 @@ var mesDelAño = document.getElementById('mes').value;
 
 switch(mesDelAño)
 {
-case "Julio": alert("abrigate que hace frio")
-                        break;
+case "Enero":
 
-case "Agosto": alert("abrigate que hace frio")
-                        break;
-                        
+case "Febrero":
 
-case "Junio": alert("falta poco para el invierno")
+case "Marzo":
+
+case "Abril":
+
+case "Mayo":
+
+case "Junio": alert ("Falta poco para el invierno");
               break;
+case "Julio":
 
-case "Septiembre": alert("ya pasamos el frio, ahora calor")
-                   break;
+case "Agosto": alert ("Abrigate que hace frio");
+               break;
+
+case "Septiembre":
+
+case "Octubre":
+
+case "Noviembre":
+
+case "Diciembre": alert ("Ya pasamos el frio, ahora calor");
+                  break;
 }
 
 
