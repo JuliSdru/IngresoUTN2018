@@ -1,16 +1,16 @@
 function Mostrar()
 {
+    var flag=0;
+    var maxima;
+	var minima;
+	var numero;
+	var respuesta='s';  
 
-	var contador=0;
-	// declarar variables
-	
-	var respuesta='si';
+	while(respuesta == 's')
 
-	while(respuesta!='no')
-	{
-		
-	
-	}
+
+
+
 
 
 
