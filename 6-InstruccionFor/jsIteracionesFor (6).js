@@ -1,14 +1,21 @@
 function Mostrar()
 {
-  for (var i = 0; i%2 ; i++ )
+  var numero;
+  var contPares = 0;
+  var i;
 
+  numero = parseInt (prompt("ingrese un numero  "));
+
+  for(i=1; i<= numero; i++)
   {
-    i = parseInt(prompt("ingrese un numero  "));
-    if (i % 2)
+    if(i%2 == 0)
     {
-     continue;
+      contPares++;
+      console.log(i);
     }
   }
+
+  console.log(" se encontraron " + contPares + " numeros pares ");
 
 
 
