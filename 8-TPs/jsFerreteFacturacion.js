@@ -21,12 +21,10 @@ function Sumar ()
 }
 function Promedio () 
 {
+    
 	
 }
 function PrecioFinal () 
 {
-	total = precio1 + precio2 + precio3;
-    total + *21/100;
-
-    alert ("la suma es   " + total + *21/100);
+	
 }

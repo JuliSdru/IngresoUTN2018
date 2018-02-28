@@ -39,4 +39,5 @@ function CalcularPrecio ()
         descuento = cantidad * 30 /100;
         precioDescuento = cantidad - descuento;
     }
+    
 }
