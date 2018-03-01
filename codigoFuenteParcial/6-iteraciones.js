@@ -4,8 +4,6 @@ function Mostrar()
     var venta;
     var ventaMayor;
     var ventaMenor;
-    var diaMayor;
-    var diaMenor;
     var flag = 0;
 
     for(var i=1; i<=7; i++)
@@ -20,16 +18,15 @@ function Mostrar()
      if (venta > ventaMayor || flag == 0)
      {
          ventaMayor = venta;
-         diaMayor = venta;
      }
-     if (venta > ventaMenor || flag == 0)
+     if (venta < ventaMenor || flag == 0)
      {
          ventaMenor = venta;
-         diaMenor = venta;
+         flag = 1;
      }
     }
 
-    alert(" la venta mayor fue  " + ventaMayor + " el dia " + diaMayor + " la venta menor fue  " + ventaMenor + " el dia " + diaMenor);
+    alert(" la venta mayor fue  " + ventaMayor + " la venta menor fue  " + ventaMenor );
     
 }
 
