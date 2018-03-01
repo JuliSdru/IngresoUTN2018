@@ -3,9 +3,9 @@ function Mostrar()
 {
     var MesDelAño;
     
-    prompt("ingrese un mes del año  ");
+    MesDelAño = prompt("ingrese un mes del año  ");
 
-    switch(MesDelAño)
+     switch(MesDelAño)
     {
         case "enero":
         case "febrero": alert("veranito!!!");
@@ -22,7 +22,7 @@ function Mostrar()
         case "noviembre":
         case "diciembre": alert("extraño enero y febrero!!!");
                           break;
-
+       //o con default
     }
 }
 

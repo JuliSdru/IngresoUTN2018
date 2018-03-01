@@ -3,24 +3,28 @@ function Mostrar()
 {
         var num1;
         var num2;
-        var multiplo;
+        var multiplicacion;
         var suma;
         var resta;
 
-        num1 = prompt(document.getElementById("numeroUno").value);
-        num2 = prompt(document.getElementById("numeroDos").value);
+        num1 = parseInt(prompt(" ingrese un numero "));
+        num2 = parseInt(prompt(" ingrese un numero "));
 
         if(num1 == num2 )
         {
-           alert("la multiplicacion es ");
+          multiplicacion = num1*num2;
         }
         else if(num1 > num2 )
         {
-            alert("la resta es ");
+         resta = num1-num2;
         }
         else 
         {
-            alert("la suma es ");
+           suma = num1+num2;
         }
+
+        document.write(" la multiplacion es  " + multiplicacion + "<br/>");
+        document.write(" la resta es  " + resta + "<br/>");
+        document.write(" lasuma es  " + suma + "<br/>");
 }
 

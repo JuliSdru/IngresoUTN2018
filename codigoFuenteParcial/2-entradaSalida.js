@@ -5,7 +5,6 @@ function Mostrar()
     var precioFinal;
     var NuevoImporte;
 
-    importe = document.getElementById("importe").value;
     
     importe = prompt("importe de un producto   ");
 
@@ -13,6 +12,6 @@ function Mostrar()
 
     precioFinal = importe + NuevoImporte;
 
-    alert("el precio final es " + precioFinal);
+    document.getElementById("importe").value = precioFinal;
 }
 

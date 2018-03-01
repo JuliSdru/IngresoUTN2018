@@ -3,6 +3,9 @@ function Mostrar()
 {
     var notas;
     var sexo; 
+    var promedio;
+    var menorNota;
+    
     nota = prompt("introducir nota  ");
     sexo = prompt("introducir sexo femenino o masculino  ");
 

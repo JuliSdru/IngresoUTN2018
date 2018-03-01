@@ -11,9 +11,6 @@ function Mostrar()
 
     perimetro = 2*ancho + 2*largo;
 
-    alert("el ancho del terrreno es " + ancho + " y el largo del terreno es " + largo);
-
-
     alambre = perimetro * 6;
 
     alert(" se necesita " + alambre + " metros para el alambrado ");
